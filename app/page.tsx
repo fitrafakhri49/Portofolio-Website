@@ -6,9 +6,9 @@ import Projects from "@/components/project";
 
 export default function Home() {
   return (
-    <div className="h-screen grid grid-cols-[3fr_3fr]">
-      {/* Sidebar column - ALWAYS show on large screens */}
-      <div className="h-screen sticky top-0 overflow-hidden">
+    <div className="grid h-screen grid-cols-[1fr_1fr]">
+      {/* Sidebar column */}
+      <div className="sticky top-0 flex h-screen justify-center">
         <Sidebar />
       </div>
 
@@ -18,7 +18,6 @@ export default function Home() {
           <section
             id="about"
             className="px-4 py-20 lg:px-12 lg:py-24 scroll-mt-24"
-            style={{ scrollMarginTop: "6rem" }}
           >
             <About />
           </section>
@@ -26,7 +25,6 @@ export default function Home() {
           <section
             id="experience"
             className="px-4 py-20 lg:px-12 lg:py-24 scroll-mt-24"
-            style={{ scrollMarginTop: "6rem" }}
           >
             <Experience />
           </section>
@@ -34,7 +32,6 @@ export default function Home() {
           <section
             id="projects"
             className="px-4 py-20 lg:px-12 lg:py-24 scroll-mt-24"
-            style={{ scrollMarginTop: "6rem" }}
           >
             <Projects />
           </section>

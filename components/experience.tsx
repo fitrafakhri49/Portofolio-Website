@@ -9,7 +9,6 @@ const experiences = [
     description:
       "Build and maintain critical components used to construct Klaviyo's frontend, across the whole product. Work closely with cross-functional teams to implement and advocate for best practices in web accessibility.",
     tech: ["JavaScript", "TypeScript", "React", "Storybook", "Accessibility"],
-    image: "https://placehold.co/80x80/0a192f/64ffda?text=Klaviyo",
   },
   {
     period: "2018 — 2024",
@@ -26,7 +25,6 @@ const experiences = [
       "WordPress",
       "Node.js",
     ],
-    image: "https://placehold.co/80x80/0a192f/64ffda?text=Upstate",
   },
   {
     period: "July — Dec 2017",
@@ -35,7 +33,6 @@ const experiences = [
     description:
       "Developed and styled interactive web apps for Apple Music, including the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback.",
     tech: ["Ember", "SCSS", "JavaScript", "MusicKit.js"],
-    image: "https://placehold.co/80x80/0a192f/64ffda?text=Apple",
   },
   {
     period: "2016 — 2017",
@@ -44,7 +41,6 @@ const experiences = [
     description:
       "Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community.",
     tech: ["Jekyll", "SCSS", "JavaScript", "WordPress"],
-    image: "https://placehold.co/80x80/0a192f/64ffda?text=Scout",
   },
 ];
 
@@ -52,9 +48,7 @@ export default function Experience() {
   return (
     <div>
       <div className="mb-8 flex items-center gap-4">
-        <h2 className="text-2xl font-bold text-primary">
-          <span className="text-accent">02.</span> Experience
-        </h2>
+        <h2 className="text-2xl font-bold text-primary">Experience</h2>
         <div className="h-[1px] w-32 bg-gray-700" />
       </div>
 
@@ -62,16 +56,6 @@ export default function Experience() {
         {experiences.map((exp, index) => (
           <div key={index} className="group relative flex gap-6">
             {/* Company logo/image */}
-            <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-lg border border-gray-700 bg-gray-800/50">
-              <Image
-                src={exp.image}
-                alt={`${exp.company} logo`}
-                width={80}
-                height={80}
-                className="h-full w-full object-cover"
-              />
-              <div className="absolute inset-0 bg-accent/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            </div>
 
             {/* Content */}
             <div className="flex-1">

@@ -3,9 +3,7 @@ export default function About() {
   return (
     <div>
       <div className="mb-8 flex items-center gap-4">
-        <h2 className="text-2xl font-bold text-primary">
-          <span className="text-accent">01.</span> About
-        </h2>
+        <h2 className="text-2xl font-bold text-primary">About</h2>
         <div className="h-[1px] w-32 bg-gray-700" />
       </div>
 

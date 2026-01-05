@@ -8,7 +8,7 @@ const projects = [
     description:
       "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
     tech: ["Video Course", "API", "Tutorial"],
-    image: "https://placehold.co/600x400/0a192f/64ffda?text=Spotify+Course",
+    image: "https://placehold.co/600x400/png?text=Spotify+App",
     github: "https://github.com",
     live: "https://example.com",
     featured: true,
@@ -18,7 +18,7 @@ const projects = [
     description:
       "Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks.",
     tech: ["React", "Express", "Spotify API", "Heroku"],
-    image: "https://placehold.co/600x400/0a192f/64ffda?text=Spotify+App",
+    image: "https://placehold.co/600x400/png?text=Spotify+App",
     github: "https://github.com",
     live: "https://example.com",
     featured: true,
@@ -28,19 +28,9 @@ const projects = [
     description:
       "Minimal dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. 100k+ Installs",
     tech: ["VS Code", "Sublime Text", "Atom", "Theme Design"],
-    image: "https://placehold.co/600x400/0a192f/64ffda?text=Halcyon",
+    image: "https://placehold.co/600x400/png?text=Spotify+App",
     github: "https://github.com",
     live: "https://marketplace.visualstudio.com",
-    featured: false,
-  },
-  {
-    title: "Portfolio v4",
-    description:
-      "An old portfolio site built with Gatsby with 6k+ stars and 3k+ forks on GitHub.",
-    tech: ["Gatsby", "Styled Components", "Netlify"],
-    image: "https://placehold.co/600x400/0a192f/64ffda?text=Portfolio",
-    github: "https://github.com",
-    live: "https://example.com",
     featured: false,
   },
 ];
@@ -49,9 +39,7 @@ export default function Projects() {
   return (
     <div>
       <div className="mb-8 flex items-center gap-4">
-        <h2 className="text-2xl font-bold text-primary">
-          <span className="text-accent">03.</span> Projects
-        </h2>
+        <h2 className="text-2xl font-bold text-primary">Projects</h2>
         <div className="h-[1px] w-32 bg-gray-700" />
       </div>
 
