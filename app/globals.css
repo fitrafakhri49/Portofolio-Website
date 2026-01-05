@@ -55,4 +55,10 @@
   .bg-accent-light {
     background-color: var(--accent-light);
   }
+  html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
 }

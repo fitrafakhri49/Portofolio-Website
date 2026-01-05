@@ -6,14 +6,14 @@ import Projects from "@/components/project";
 
 export default function Home() {
   return (
-    <div className="relative mx-auto flex max-w-[1800px]">
-      {/* Sidebar column - fixed width */}
-      <div className="lg:block lg:w-2/5">
+    <div className="h-screen grid grid-cols-[3fr_3fr]">
+      {/* Sidebar column - ALWAYS show on large screens */}
+      <div className="h-screen sticky top-0 overflow-hidden">
         <Sidebar />
       </div>
 
-      {/* Main content column - scrollable */}
-      <div className="w-full lg:w-3/5">
+      {/* Main content column */}
+      <div className="h-screen overflow-y-auto">
         <main>
           <section
             id="about"
