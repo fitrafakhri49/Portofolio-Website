@@ -9,30 +9,30 @@ export default function About() {
 
       <div className="space-y-4 text-secondary">
         <p>
-          I'm a developer passionate about crafting accessible, pixel-perfect
-          user interfaces that blend thoughtful design with robust engineering.
-          My favorite work lies at the intersection of design and development,
-          creating experiences that not only look great but are meticulously
-          built for performance and usability.
+          Hi, I'm Fakhri Fitra Perdana, a passionate FullStack and Mobile
+          Developer with experience in building scalable web and mobile
+          applications. I specialize in React, React Native, Next.js, Node.js,
+          Express, and Go, and I enjoy exploring new technologies and solving
+          challenging problems.
         </p>
 
         <p>
-          Currently, I'm a Senior Front-End Engineer specializing in
-          accessibility. I contribute to the creation and maintenance of UI
-          components that power frontend systems, ensuring our platforms meet
-          web accessibility standards and best practices to deliver an inclusive
-          user experience.
+          I have a strong interest in cloud computing, database management, and
+          real-time applications, and I love integrating APIs and services to
+          create efficient and user-friendly solutions. In my projects, I focus
+          not only on functionality but also on maintainable and clean code.
+          When I'm not coding, I enjoy learning about AI, IoT, and hardware
+          programming, tinkering with Arduino and ESP32 devices. I'm always
+          looking to collaborate with other developers and work on projects that
+          make a meaningful impact.
         </p>
 
         <p>
-          In the past, I've had the opportunity to develop software across a
-          variety of settings — from advertising agencies and large corporations
-          to start-ups and small digital product studios.
-        </p>
-
-        <p>
-          In my spare time, I'm usually hiking, playing tennis, hanging out with
-          my pets, or exploring new technologies and frameworks.
+          Currently, I'm working on personal projects, experimenting with
+          full-stack architectures, and enhancing my skills in mobile
+          development and cloud technologies. I'm open to opportunities where I
+          can grow as a developer, contribute to innovative projects, and learn
+          from a community of talented engineers.
         </p>
       </div>
     </div>

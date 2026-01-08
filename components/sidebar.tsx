@@ -1,3 +1,5 @@
+"use client";
+import Image from "next/image";
 import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 
 export default function Sidebar() {
@@ -6,6 +8,19 @@ export default function Sidebar() {
       <div className="flex flex-col justify-between h-full max-h-[600px] px-8 py-12">
         {/* TOP */}
         <div>
+          {/* PROFILE PHOTO */}
+          <div className="mb-8 flex justify-center">
+            <div className="relative h-28 w-28 overflow-hidden rounded-full ring-2 ring-accent transition-transform duration-300 hover:scale-105">
+              <Image
+                src="/profile.png" // taruh di folder /public
+                alt="Fakhri Fitra Perdana"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
+
           <h1 className="text-5xl font-bold text-primary">
             Fakhri Fitra Perdana
           </h1>

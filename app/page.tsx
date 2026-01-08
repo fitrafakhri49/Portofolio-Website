@@ -1,4 +1,5 @@
 // app/page.tsx
+"use client";
 import Sidebar from "@/components/sidebar";
 import About from "@/components/about";
 import Experience from "@/components/experience";

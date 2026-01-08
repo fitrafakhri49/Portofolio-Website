@@ -5,27 +5,31 @@
 
 @layer base {
   :root {
-    --primary: #020c1b;
-    --secondary: #0a192f;
-    --text-main: #ccd6f6;
-    --text-muted: #8892b0;
-    --accent: #64ffda;
-    --accent-light: rgba(100, 255, 218, 0.1);
+    --primary: #ffffff;
+    --secondary: #f1f1f1;
+    --text-main: #0f0f0f;
+    --text-muted: #6b7280;
+    --accent: #111827;
+    --accent-light: #e5e7eb;
   }
 
   html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
     font-size: 16px;
+    height: 100%;
   }
 
   body {
+    min-height: 100%;
     background-color: var(--primary);
     color: var(--text-muted);
     font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', monospace;
     line-height: 1.3;
   }
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     color: var(--text-main);
   }
 
@@ -39,26 +43,20 @@
   .text-balance {
     text-wrap: balance;
   }
-  
+
   .text-primary {
     color: var(--text-main);
   }
-  
+
   .text-secondary {
     color: var(--text-muted);
   }
-  
+
   .text-accent {
     color: var(--accent);
   }
-  
+
   .bg-accent-light {
     background-color: var(--accent-light);
   }
-  html,
-body {
-  height: 100%;
-  overflow: hidden;
-}
-
 }
